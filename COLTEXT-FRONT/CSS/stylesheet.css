@@ -1,3 +1,4 @@
+/* Contenedor cuadrado de contenido */
 .container {
     display: flex;
     flex-direction: column;
@@ -6,9 +7,14 @@
     background-color: #e9e3bb;
     font-family: 'Montserrat';font-size: 22px;
 }
+/* formato principal de títulos */
 .titlefont{
-    font-family: 'DM Serif Display';font-size: 40px;
+    font-family: 'DM Serif Display';
+    font-size: 72px;
+    margin: 0;
+    color: #a57512;
 }
+/* Formato de banner ** EN CONSTRUCCIÓN ** */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -16,3 +22,51 @@
     background-color: #042212;
     padding: 10px;
 }
+/* Contenedor cuadrado de contenido para errores */
+.error-body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e3bb;
+}
+/* Contenedor cuadrado de contenido dentro del body de error, para disponer de contenedores dentro del body del error */
+.error-container {
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Clase que permite editar los parámetros de la imagen de error, es aquí donde incluimos la animación */
+.error-image {
+    animation: bounce 2s infinite;
+    margin-right: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+/* animación de la imagen de error */
+@keyframes bounce {
+    /* entendiendo la animación como un fragmento de tiempo que va de 0 a 100, definimos momentos entro de este proceso
+        en estos 5 momentos particulares (0%, 20%, 50%, 80%, 100%) la posición vertical de la imagen sera el origen*/
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px); /* en el momento 40 subimos la imagen 20 pixeles verticalmente */
+    }
+    60% {
+        transform: translateY(-10px); /* en el momento 60 subimos la imagen 10 pixeles verticalmente */
+    }
+}
+
+/* Contenedor cuadrado de contenido de párrafo */
+.p-cuadrado {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin: 0;
+    color: #042212;
+    width: 600px; /* Ancho deseado */
+    height: auto; /* Altura deseada */
+}
+
