@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\Users\Sena\Downloads\Diseño Web clase 6\COLTEXT-FRONT\COLTEXT-FRONT\CSS\stylesheet.css">
+    <link rel="stylesheet" href="C:\Users\HP\Downloads\ADSObryan\FRONT\COLTEXT-FRONT\CSS\stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'rel='stylesheet'>
@@ -24,31 +25,67 @@
             <h1 class="titlefont">Crear Cuenta Nueva</h1>
             <p>¿Como quieres usar COLTEXT?</p>
             <div>
-                <button class="button"> Vendedor</button>
-                <button class="button"> Comparador</button>
+                <label class="radio-inline">
+                    <input type="radio" name="tipo" checked> Vendedor
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="tipo"> Comprador
+                </label>
             </div>
             <div class="banner2">
                 <h2>¿Ya tienes cuenta?</h2>
                 <a href="login.html">Ingresa aquí</a>
             </div>
-            <form action="#" method="post">
-                <label for="correo">Nombre (Personal o de Empresa)</label>
-                <br>
-                <input type="text" id="nombre" name="nombre" required>
-                <br>
-                <label for="correo">Correo:</label>
-                <br>
-                <input type="text" id="correo" name="correo" required>
-                <br>
-                <label for="contraseña">Contraseña:</label>
-                <br>
-                <input type="password" id="contraseña" name="contraseña" required>
-                <br>
-                <label for="nacimiento">Año de Nacimiento (o de Creación)</label>
-                <br>
-                <input type="date" id="nacimiento" name="nacimiento" required>
-                <br>
-                <input type="submit" value="Regístrate">
+            <form class="container2">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Bogotá</option>
+                            <option>Medellin</option>
+                            <option>Cali</option>
+                        </select>
+                    </div>
+                    <div class="banner2">
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Departamento</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>Bogotá D.C.</option>
+                                <option>Antiqua</option>
+                                <option>Valle Del Cauca</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
             </form>
         </div>
     </div>

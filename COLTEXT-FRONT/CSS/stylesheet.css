@@ -12,6 +12,15 @@
     width: auto;
     border-radius: 20px;
 }
+.container2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: auto; /* Esto centra verticalmente en la página */
+    background-color: #e9e3bb;
+    font-family: 'Montserrat';font-size: 22px;
+    width: auto;
+    border-radius: 20px;
+}
 /* formato principal de títulos */
 .titlefont {
     font-family: 'DM Serif Display';
@@ -33,10 +42,10 @@
     align-items: center;
     background-color: #e9e3bb;
     padding: 10px;
-    font-family: 'DM Serif Display';
-    font-size: 20px;
-    margin: 0;
-    color: #a57512;
+    font-family: 'Montserrat';font-size: 22px;
+    width: auto;
+    border-radius: 20px;
+    color: #042212;
 }
 /* Contenedor cuadrado de contenido para errores */
 .error-body {
@@ -90,7 +99,7 @@
     background-image: url('C:/Users/Sena/Downloads/Diseño Web clase 6/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
 }
 .btn1{
-    background-image:url('C:/Users/Sena/Downloads/Diseño Web clase 6/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
+    background-image:url('C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -98,15 +107,16 @@
     background-position:center;
 }
 .btn2{
-    background-image:url('C:/Users/Sena/Downloads/Diseño Web clase 6/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
+    background-image:url('C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
+    
     background-size: 50px 50px;
     background-position:center;
 }
 .btn3{
-    background-image:url('C:/Users/Sena/Downloads/Diseño Web clase 6/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
+    background-image:url('C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
