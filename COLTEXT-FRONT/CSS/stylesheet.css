@@ -21,6 +21,27 @@
     width: auto;
     border-radius: 20px;
 }
+.container3 {
+    padding: 20px;
+    height: auto; /* Esto centra verticalmente en la página */
+    font-family: 'Montserrat';font-size: 22px;
+    width: 50;
+    border-radius: 20px;
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: auto; /* Esto centra verticalmente en la página */
+    background-image: url('C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/back1.PNG');
+    font-family: 'Montserrat';font-size: 22px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.444);
+}
 /* formato principal de títulos */
 .titlefont {
     font-family: 'DM Serif Display';
@@ -28,7 +49,19 @@
     margin: 0;
     color: #a57512;
 }
-/* Formato de banner ** EN CONSTRUCCIÓN ** */
+.titlefont2 {
+    font-family: 'DM Serif Display';
+    font-size: 24px;
+    margin: 0;
+    color: #a57512;
+}
+.titlefont3 {
+    font-family: 'DM Serif Display';
+    font-size: 72px;
+    margin: 0;
+    color: #042212;
+}
+/* Formato de banner */
 .banner {
     display: flex;
     justify-content: space-between;
@@ -46,6 +79,13 @@
     width: auto;
     border-radius: 20px;
     color: #042212;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #042212;
+    padding: 10px;
 }
 /* Contenedor cuadrado de contenido para errores */
 .error-body {
@@ -96,10 +136,10 @@
 }
 /* agrega una imagen a un elemento seleccionado */
 .add{
-    background-image: url('C:/Users/Sena/Downloads/Diseño Web clase 6/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
+    background-image: url("C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png");
 }
 .btn1{
-    background-image:url('C:/Users/Sena/Downloads/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -107,7 +147,7 @@
     background-position:center;
 }
 .btn2{
-    background-image:url('C:/Users/Sena/Downloads/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -116,12 +156,40 @@
     background-position:center;
 }
 .btn3{
-    background-image:url('C:/Users/Sena/Downloads/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
     background-size: 50px 50px;
     background-position:center;
+    
+}
+.btn4{
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/wtsp.png');
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    
+}
+.btn5{
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/mail.png');
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    
+}
+.btn6{
+    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/face.png');
+    background-repeat:no-repeat;
+    height:60px;
+    width:70px;
+    background-size: 50px 50px;
+    background-position:center;
+    
 }
 .padre {
     /* Codigo para centrar*/
@@ -285,6 +353,17 @@ a:hover{
     cursor: pointer;
 }
 .box button:hover{
+    background: #a57512;
+}
+.btnpqrs{
+    background: #042212;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.btnpqrs:hover{
     background: #a57512;
 }
 .box i{
