@@ -36,7 +36,7 @@
     border: 1px solid #ccc;
     padding: 20px;
     height: auto; /* Esto centra verticalmente en la página */
-    background-image: url('C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/back1.PNG');
+    background-image: url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/back1.PNG');
     font-family: 'Montserrat';font-size: 22px;
     width: auto;
     border-radius: 20px;
@@ -136,10 +136,10 @@
 }
 /* agrega una imagen a un elemento seleccionado */
 .add{
-    background-image: url("C:/Users/HP/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png");
+    background-image: url("/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png");
 }
 .btn1{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/1 sin fondo.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -147,7 +147,7 @@
     background-position:center;
 }
 .btn2{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/icono-campana.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -156,7 +156,7 @@
     background-position:center;
 }
 .btn3{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/usuario-icono.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -165,7 +165,7 @@
     
 }
 .btn4{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/wtsp.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/wtsp.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -174,7 +174,7 @@
     
 }
 .btn5{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/mail.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/mail.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
@@ -183,7 +183,7 @@
     
 }
 .btn6{
-    background-image:url('C:/Users/Hp/Downloads/ADSObryan/FRONT/COLTEXT-FRONT/multimedia/face.png');
+    background-image:url('/home/bryan/Proyectos de Programación/FRONT/COLTEXT-FRONT/COLTEXT-FRONT/multimedia/face.png');
     background-repeat:no-repeat;
     height:60px;
     width:70px;
